@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<HBox alignment="CENTER_RIGHT" prefHeight="50" prefWidth="600"
+	spacing="12.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Button fx:id="backButton" mnemonicParsing="false" styleClass="button"
+			text="Back">
+			<font>
+				<Font name="Arial" size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="nextButton" mnemonicParsing="false" styleClass="button"
+			text="Start">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Button>
+		<Button fx:id="cancelButton" mnemonicParsing="false"
+			styleClass="button" text="Cancel">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Button>
+	</children>
+	<padding>
+		<Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+	</padding>
+	<effect>
+		<Glow />
+	</effect>
+</HBox>
